@@ -1,0 +1,2 @@
+
+    print("new record inserted")

@@ -1,0 +1,1 @@
+create database gps_data;

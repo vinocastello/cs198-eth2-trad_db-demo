@@ -53,7 +53,7 @@ def read_latest(table):
         print("You do not have any data yet!")
     else:
         print("latest GPS data:")
-        table = [field_names,[result[0].strftime('%Y-%m-%d %H:%M:%S'),result[1],result[2]]]
+        table = [field_names,[result[0],result[1].strftime('%Y-%m-%d %H:%M:%S'),result[2],result[3]]]
         print(tabulate(table))
 
 def read_all(table):
